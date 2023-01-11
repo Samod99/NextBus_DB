@@ -63,6 +63,9 @@
     <Build Include="Tables\tbl_Payment.sql" />
     <Build Include="Tables\tbl_Bus.sql" />
     <Build Include="Tables\tbl_Passenger.sql" />
+    <Build Include="Tables\tbl_BusOwnerLogin.sql" />
+    <Build Include="Tables\tbl_ConductorLogin.sql" />
+    <Build Include="Tables\tbl_PassengerLogin.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="NextBus_DB.refactorlog" />

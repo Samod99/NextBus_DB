@@ -84,4 +84,60 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="ELDepartureTime" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="d3d1e5d0-25cb-49e8-81c5-a1736e397ad7" ChangeDateTime="01/10/2023 15:18:44">
+    <Property Name="ElementName" Value="[dbo].[tbl_Passenger].[PassengerName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_Passenger]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="26fe709f-77de-4abe-826f-5742290696b7" ChangeDateTime="01/10/2023 15:20:11">
+    <Property Name="ElementName" Value="[dbo].[tbl_Passenger].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_Passenger]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Title" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="905046d5-a6fe-4459-87a6-b15929150085" ChangeDateTime="01/10/2023 15:22:13">
+    <Property Name="ElementName" Value="[dbo].[tbl_Bus].[NumberOfSeats]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_Bus]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NoOfSeats" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7eda01ed-647b-4a6f-865a-6aeda003c27c" ChangeDateTime="01/10/2023 15:22:37">
+    <Property Name="ElementName" Value="[dbo].[tbl_BusOwner].[OwnerName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_BusOwner]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cb864423-cf38-428e-a148-bde19e31b99e" ChangeDateTime="01/10/2023 15:24:11">
+    <Property Name="ElementName" Value="[dbo].[tbl_Conductor].[BusCode]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_Conductor]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OwnerCode" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="098e5464-bb03-4761-a0fc-f05bc75e7468" ChangeDateTime="01/10/2023 15:36:48">
+    <Property Name="ElementName" Value="[dbo].[tbl_BusOwnerLogin].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_BusOwnerLogin]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e9d11ee1-c94a-4bf7-97b5-709cf25e8417" ChangeDateTime="01/10/2023 15:37:22">
+    <Property Name="ElementName" Value="[dbo].[tbl_ConductorLogin].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_ConductorLogin]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c51a56b0-ae2b-4436-afd0-cdab75097b7d" ChangeDateTime="01/10/2023 15:38:35">
+    <Property Name="ElementName" Value="[dbo].[tbl_PassengerLogin].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_PassengerLogin]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserName" />
+  </Operation>
 </Operations>
